@@ -1,0 +1,87 @@
+body {
+   background-color: #010C25; /* La página de fondo será negra */
+    color: white;
+     background-image: url("img/f.gif");
+}
+.our-team {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.out-team .container__flex {
+    align-items: flex-start;
+}
+section{
+   box-shadow: 6px 7px 7px #A87FD6;
+}
+.group__title {
+    font-family: 'Montserrath';
+     text-align: center;
+    font-weight: 100;
+    font-size: 1.9em;
+    margin: 30px;
+}
+.our-team__title {
+font-size: 1.8em;
+    color: #F9FAFD;
+    padding: 15px;
+    font-family: 'Montserrath';
+    font-weight: 100;
+}
+
+.group__title__li {
+    font-family: 'Montserrath';
+     text-align: center;
+    font-weight: 100;
+    font-size: 2.0em;
+    margin: 30px;
+}
+
+@media screen and (min-width:480px) {
+    .our-team__title{
+        color: #3C67CD;
+    } 
+.our-team__img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.our-team__txt {
+    padding: 10px;
+    text-align: justify;
+}
+
+@media screen and(min-width:480px){
+    .our-team__img{
+        width: 125px;
+        height: 125px;
+    }
+}
+@media screen and(min-width:768px){
+    .our-team__img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and(min-width:1024px){
+    .our-team__img{
+        width: 300px;
+        height: 300px;
+    }
+    .our-team__title {
+        font-size: 2.1em;
+    }
+}
+@media screen and(min-width:1600px){
+    .our-team__img{
+        width: 400px;
+        height: 400px;
+    }
+}
+.banner__img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
