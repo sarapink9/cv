@@ -28,7 +28,7 @@ try {
     $mail->Port       = 587;
 
     //Recipients
-    $mail->setFrom('gcs1731100728@gmail.com ', $nombre); // Desde donde se va ha enviar
+    $mail->setFrom('gcs1731100728@gmail.com', $nombre); // Desde donde se va ha enviar
     $mail->addAddress('mafalda.gonn@gmail.com');     // ha quien se le va enviar
 
     // Content
